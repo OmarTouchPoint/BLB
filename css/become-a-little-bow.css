@@ -388,7 +388,7 @@ ul,li{
 	top:0px;
 	width:100%;
 	
-	z-index:9999;
+	z-index:100;
 	transition:all 500s ease;
 	-webkit-transition:all 500s ease;
 	-ms-transition:all 500s ease;
@@ -2270,6 +2270,215 @@ ul,li{
 
 .contact-section button:before{
 	background:#f06626;	
+}
+
+.little-bow-section{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	background-image: url('/images/background/bg-balb-img-little-bow-tittle.png');
+	padding: 70px 0px;
+	background-size: cover;
+	margin-top: 13rem;
+}
+.little-bow-title-container{
+	width: 100%;
+	max-width: 1050px;
+	display: flex;
+	justify-content: flex-start;
+	column-gap: 60px;
+}
+.little-bow-title{
+	max-width:280px;
+	max-height: 144px;
+}
+.little-bow-subtext{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+}
+.head-text{
+	font-weight: 700;
+	color: #070707;
+
+}
+.little-bow-title-text{
+	font-family: 'Roboto Slab';
+	font-size: 17px;
+	color: #3d3d3d;
+	
+	max-width: 833px;
+	/* max-width: 708px; */
+}
+.center-text{
+	text-align: center;
+}
+.little-bow-persons{
+	width: 100%;
+	padding: 100px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.little-bow-persons-container{
+	width: 100%;
+	max-width:1040px;
+	display: flex;
+	column-gap: 55px;
+
+
+}
+.little-bow-persons-mobile-content{
+	display: none;
+}
+.little-bow-persons-text-column{
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	max-width: 525px;
+}
+.little-bow-persons-img-column{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 50px;
+}
+.text-column-arrow{
+	width: 15px;
+	margin-left: 60px;
+}
+.text-box-title{
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.text-column-title{
+	font-weight: 700;
+}
+.pink-text{
+	color: #FF345C	;
+}
+.orange-text{
+	color:#FF9800;
+}
+.cian-text{
+	color:#00CCDC;
+}
+.green-text{
+	color: #68B51A;
+}
+.col-img{
+	max-width: 400px;
+}
+
+.little-bow-bs-section{
+	background-image: url('/images/background/blb-little-bow-bs-bg-section.png');
+	background-size: cover;
+	width: 100%;
+	padding: 70px 0px 180px 0px;
+	display: flex;
+	justify-content: center;
+}
+.little-bow-bs-section-container{
+	width: 100%;
+	max-width: 1050px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 25px;
+}
+.little-bow-bs-section-ps{
+	background-color: #FF355D;
+	color: #fff;
+	font-family: 'Roboto Slab';
+	font-weight: 700;
+	font-size: 35px;
+	padding: 15px 20px;
+}
+.little-bow-bs-section-bs{
+	background-color: #000000;
+	color: #fff;
+	padding: 42px 46px;
+	max-width: 470px;
+	font-family: 'Roboto';
+	font-size: 20px;
+
+}
+.little-bow-mentor-qualification{
+	width: 100%;
+	padding: 100px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.little-bow-mentor-qualification-container{
+	display: flex;
+	width: 100%;
+	max-width: 1040px;
+	justify-content: center;
+	align-items: center;
+	column-gap: 50px;
+}
+.little-bow-mentor-qualification-first-col{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+.column-title{
+	font-size: 35px;
+	font-weight: 700;
+}
+.mentor-qualification-img{
+	width: 100%;
+}
+.little-bow-mentor-qualification-second-col{
+	
+	width:50%;
+}
+.little-bow-text-section, .little-bow-list{
+	font-family: 'Roboto', serif;
+	font-size: 20px;
+}
+.little-bow-text-section{
+	display: block;
+	margin: 15px 0px;
+	
+}
+.littlebow-list{
+	padding-left: 30px;
+}
+.little-bow-list{
+	list-style: disc;
+}
+.little-bow-cta{
+	width: 100%;
+	padding-bottom: 90px;
+	display:flex;
+	justify-content: center;
+}
+.little-bow-cta-container{
+	width: 100%;
+	max-width: 1050px;
+	display: flex;
+	justify-content: center;
+}
+.little-bow-cta-text{
+	width: 100%;
+	max-width: 984px;
+	text-align: center;
+	color: #FF355D;
+	font-size: 35px;
+	font-weight: 700;	
+}
+
+.cta-normal-text{
+	color: #000;
+	font-size: 23px;
+	font-weight: Medium;
 }
 
 /*** 
@@ -5223,7 +5432,7 @@ ul,li{
 
 
 
-@media (min-width:451px) and (max-width:1023px) {
+@media (min-width:768px) and (max-width:1023px) {
 	.balb-title-container{
 		margin-bottom: 5rem;
 		padding: 3rem;
@@ -5232,9 +5441,59 @@ ul,li{
 	.team-section{
 		margin-top: -17rem;
 	}
+	.little-bow-title-container{
+		flex-direction: column;
+		padding: 0px 15px;
+		row-gap: 30px;
+	}
+	.little-bow-subtext{
+		padding: 0px 15px;
+	}
+	.little-bow-persons{
+		padding: 50px 0px;
+	}
+	.little-bow-persons-text-column{
+		padding: 0px 15px;
+	}
+	.little-bow-persons-container{
+		display: none;
+	}
+	.little-bow-persons-mobile-content{
+		display: flex;
+	}
+	.little-bow-section{
+		margin-top: 0px;
+	}
+	.little-bow-bs-section{
+		padding: 50px 15px;
+	}
+	.little-bow-mentor-qualification{
+		padding: 50px 15px;
+	}
+	.little-bow-mentor-qualification-container{
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 30px;
+	}
+	.little-bow-mentor-qualification-first-col{
+		width:100%;
+	}
+	
+	.little-bow-mentor-qualification-second-col{
+		width: 100%;
+		display: flex;
+		justify-content:center ;
+	}
+	.mentor-qualification-img{
+		max-width: 70%;
+	}
+	.little-bow-cta{
+		padding: 50px 15px 100px 15px;
+
+	}
 
 }
-@media (max-width:450px) {
+@media (max-width:767px) {
 	.balb-title-container{
 		flex-direction: column;
 		padding: 3rem;
@@ -5289,5 +5548,49 @@ ul,li{
 		display:flex;
 		flex-direction: column-reverse;
 	}
+	.little-bow-title-container{
+		flex-direction: column;
+		padding: 0px 15px;
+		row-gap: 30px;
+	}
+	.little-bow-subtext{
+		padding: 0px 15px;
+	}
+	.little-bow-persons{
+		padding: 50px 0px;
+	}
+	.little-bow-persons-text-column{
+		padding: 0px 15px;
+	}
+	.little-bow-persons-container{
+		display: none;
+	}
+	.little-bow-persons-mobile-content{
+		display: flex;
+	}
+	.little-bow-section{
+		margin-top: 0px;
+	}
+	.little-bow-bs-section{
+		padding: 50px 15px;
+	}
+	.little-bow-mentor-qualification{
+		padding: 50px 15px;
+	}
+	.little-bow-mentor-qualification-container{
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 30px;
+	}
+	.little-bow-mentor-qualification-first-col{
+		width:100%;
+	}
 	
+	.little-bow-mentor-qualification-second-col{
+		width: 100%;
+	}
+	.little-bow-cta{
+		padding: 50px 15px 100px 15px;
+
+	}
 }
