@@ -1125,7 +1125,7 @@ ul,li{
 }
 
 .bg-img-sec{
-	background-image: url('/images/background/bg-img-mission.png');
+	background-image: url('../images/background/bg-img-mission.png');
 	padding: 80px 0px;
 	display:flex;
 	justify-content: center;
@@ -5505,5 +5505,8 @@ h2 .big-text{
 
 	.bg-img-sec{
 		padding: 80px 15px;
+	}
+	.header-top{
+		display: none;
 	}
 }
