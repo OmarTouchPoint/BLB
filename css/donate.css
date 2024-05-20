@@ -1128,7 +1128,7 @@ ul,li{
 }
 
 .button-box{
-	background-image: url('/images/background/blb-donate-button-box-bg.png');
+	background-image: url('images/background/blb-donate-button-box-bg.png');
 	background-size: cover;
 	padding: 100px 0px 90px 0px;
 	display:flex;
