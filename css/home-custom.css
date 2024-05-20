@@ -2136,7 +2136,7 @@ ul,li{
 .contact-us-section{
 	position:relative;
 	padding:30px 0px 20px;
-	background-image: url(/images/background/blb-home-contact-us.png);
+	background-image: url(../images/background/blb-home-contact-us.png);
 	background-size: cover;
 }
 /***
@@ -5440,6 +5440,9 @@ ul,li{
 	}
 	.contact-us-section-container{
 		padding-top: 50px;
+	}
+	.header-top{
+		display: none;
 	}
 }
 

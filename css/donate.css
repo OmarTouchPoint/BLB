@@ -1191,6 +1191,9 @@ ul,li{
 #donate-time-text{
 	padding-top: 20px;
 }
+.margin-20{
+	margin-top: 20px;
+}
 
 /*** 
 
@@ -5632,6 +5635,9 @@ h2 .big-text{
         flex-direction: column;
         row-gap: 15px;
     }
+	.header-top{
+		display: none;
+	}
 	}
 
 

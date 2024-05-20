@@ -5599,7 +5599,9 @@ h2 .big-text{
 			display:flex;
 			flex-direction: column-reverse;
 		}
-	
+		.header-top{
+			display: none;
+		}
 }
 
 

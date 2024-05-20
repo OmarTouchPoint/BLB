@@ -2376,7 +2376,7 @@ ul,li{
 }
 
 .little-bow-bs-section{
-	background-image: url('/images/background/blb-little-bow-bs-bg-section.png');
+	background-image: url('../images/background/blb-little-bow-bs-bg-section.png');
 	background-size: cover;
 	width: 100%;
 	padding: 70px 0px 180px 0px;
@@ -5596,5 +5596,8 @@ ul,li{
 	.little-bow-cta{
 		padding: 50px 15px 100px 15px;
 
+	}
+	.header-top{
+		display: none;
 	}
 }

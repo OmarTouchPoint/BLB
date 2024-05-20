@@ -1083,7 +1083,7 @@ ul,li{
 	display: flex;
 	justify-content: center;
 	padding: 100px 0px;
-	background-image: url('/images/background/founders-bg-img-sec.png');
+	background-image: url('../images/background/founders-bg-img-sec.png');
 	background-size: cover;
 }
 .founders-bg-bs-container{
@@ -1598,5 +1598,7 @@ font-size: 20px;
 		color: #fff;
 		line-height: 18px;
 	}
-	
+	.header-top{
+		display: none;
+	}
 }
