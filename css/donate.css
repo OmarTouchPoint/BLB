@@ -545,7 +545,7 @@ ul,li{
 .main-header .right-cont{
 	position:relative;
 	float:right;
-	padding-top:15px;
+	padding-top:30px;
 }
 
 .main-header .main-menu{
@@ -980,7 +980,9 @@ ul,li{
 #side-navigation .navigation > ul li.dropdown:hover > .dropdown-btn{
 	border-color:#ffffff !important;
 }
-
+.logo{
+	padding: 15px 0px;
+}
 
 /*** 
 

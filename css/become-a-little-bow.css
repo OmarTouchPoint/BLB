@@ -545,7 +545,7 @@ ul,li{
 .main-header .right-cont{
 	position:relative;
 	float:right;
-	padding-top:15px;
+	padding-top:30px;
 }
 
 .main-header .main-menu{
@@ -2277,7 +2277,7 @@ ul,li{
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
-	background-image: url('/images/background/bg-balb-img-little-bow-tittle.png');
+	background-image: url('../images/background/bg-balb-img-little-bow-tittle.png');
 	padding: 70px 0px;
 	background-size: cover;
 	margin-top: 13rem;
@@ -2451,6 +2451,9 @@ ul,li{
 }
 .littlebow-list{
 	padding-left: 30px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
 }
 .little-bow-list{
 	list-style: disc;

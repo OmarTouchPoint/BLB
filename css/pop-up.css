@@ -51,6 +51,9 @@
 	display: block;
 	padding-left: 20px;
 	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
 }
 .pop-up-col-list-element{
 	list-style: disc;
@@ -65,6 +68,7 @@
 	.pop-up-container-bs{
 		flex-direction: column;
 		overflow: scroll;
+		padding: 20px;
 	}
 	.pop-up-col-left, .pop-up-col-right{
 		width: 100%;
