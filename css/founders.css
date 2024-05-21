@@ -581,7 +581,9 @@ ul,li{
 	padding:0px 0px;
 	background:rgb(11, 155, 161, 0.80);
 }
-
+.logo{
+	padding: 15px 0px;
+}
 .main-header .header-lower .logo{
 	position:relative;
 	float:left;	
@@ -590,7 +592,7 @@ ul,li{
 .main-header .right-cont{
 	position:relative;
 	float:right;
-	padding-top:15px;
+	padding-top:30px;
 }
 
 .main-header .main-menu{

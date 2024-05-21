@@ -541,11 +541,14 @@ ul,li{
 	position:relative;
 	float:left;	
 }
+.logo{
+	padding: 15px 0px;
+}
 
 .main-header .right-cont{
 	position:relative;
 	float:right;
-	padding-top:15px;
+	padding-top:30px;
 }
 
 .main-header .main-menu{

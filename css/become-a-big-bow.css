@@ -545,7 +545,7 @@ ul,li{
 .main-header .right-cont{
 	position:relative;
 	float:right;
-	padding-top:15px;
+	padding-top:30px;
 }
 
 .main-header .main-menu{
@@ -981,7 +981,9 @@ ul,li{
 	border-color:#ffffff !important;
 }
 
-
+.logo{
+	padding: 15px 0px;
+}
 /*** 
 
 ====================================================================
