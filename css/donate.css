@@ -2521,7 +2521,7 @@ ul,li{
 .left-side{
 	display:flex;
 	align-items: flex-end;
-	gap: 1.5rem;
+	gap: 50px;
 }
 .right-side{
 	display: flex;
@@ -2534,7 +2534,16 @@ ul,li{
 	line-height: 15px;
 }
 
-
+.footer-text{
+	max-width: 321px;
+}
+.privacy-style-footer{
+    font-family: 'Roboto', serif;
+    font-size: 13px;
+    font-weight: 400;
+    color:#fff;
+    text-decoration: underline;
+}
 
 
 
@@ -5640,6 +5649,17 @@ h2 .big-text{
 	.header-top{
 		display: none;
 	}
+	.upper-footer-content{
+        flex-direction: column;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .left-side, .right-side{
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
 	}
 
 
