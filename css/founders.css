@@ -1205,11 +1205,11 @@ font-size: 20px;
 	line-height: 15px;
 }
 .footer-text{
-	max-width: 321px;
+	max-width: 350px;
 }
 .privacy-style-footer{
     font-family: 'Roboto', serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     color:#fff;
     text-decoration: underline;
